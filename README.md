@@ -25,3 +25,8 @@ update README.md to better explain what the project is about
 ```
 
 **Obs:** Dependendo nem precisa informar o arquivo, pois se tiver em um IDE com suporte direto (exmeplo VS Code), se o arquivo tiver aberto ele já aparece como selecionado.
+
+### CUIDADO
+De vez em nunca escreva algo, ou seu conhecimento vai pras cucuias.
+
+Ao menos para mim, escrever código facilita memorização de padrões e etc, então nunca estou 100% vibe coding. Isso é ruim!!
