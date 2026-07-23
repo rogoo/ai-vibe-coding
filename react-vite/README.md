@@ -1,8 +1,8 @@
 # Comandos Utilizados
-Para a criação inicial.
+**Para a criação inicial.**
 > create react 19.2 typescript vite app. Install Jest, Axios, react-dom. Route dom route being framework.
 
-Pedi para criar componentes
+**Pedi para criar componentes**
 > create a folder components with:
 >  - home component, that will have a counter.
 > - formTest component, that has a form with a textfield called name, a select combo called sex (values allowed male, female, other), textfield called age, textarea called observation.
@@ -10,31 +10,31 @@ Pedi para criar componentes
 >
 > create it to use framework mode of react dom, pointing to those components.
 
-Pedi para criar arquivo do react-dom de rotas (routes.ts), e adicionar os componentes criados. Aqui ele sumiu com main.tsx e index.tsx e preferiu deixar apenas root.tsx.
+**Pedi para criar arquivo do react-dom de rotas (routes.ts), e adicionar os componentes criados. Aqui ele sumiu com main.tsx e index.tsx e preferiu deixar apenas root.tsx.**
 > create react-dom routes based on components
 
-Componentes ficaram bagunçados, então pedi que corrigisse isso.
+**Componentes ficaram bagunçados, então pedi que corrigisse isso.**
 > inside components create a folder for each one
 
-Neste momento, erro sonar no componente FormTeste (tem um form). Devido a ser React versão 19.2, o FormEvent foi depreciado. Então pedi para a IA tentar arrumar.
+**Neste momento, erro sonar no componente FormTeste (tem um form). Devido a ser React versão 19.2, o FormEvent foi depreciado. Então pedi para a IA tentar arrumar.**
 > fix sonar of FormTest
 
-IA não detectou o erro, e pediu explicação. Informei.
+**IA não detectou o erro, e pediu explicação. Informei.**
 > 'FormEvent' is deprecated
 
-IA se perdeu e pedi logo pra mudar para Form Actions (novo no React 19). Com isso, resolvi meu problema do sonar esta reclamando.
+**IA se perdeu e pedi logo pra mudar para Form Actions (novo no React 19). Com isso, resolvi meu problema do sonar esta reclamando.**
 > change handleSubmit to use form actions
 
-Para testar, pedi que deixasse os valores do formulário após submeter, momento em que ele passou a usar o hook useState
+**Para testar, pedi que deixasse os valores do formulário após submeter, momento em que ele passou a usar o hook useState**
 > on FormTest, keep the values after submitting
 
-Depois pedi para validar alguns campos do formulário.
+**Depois pedi para validar alguns campos do formulário.**
 > put a validation to check if age is bigger then 30 and name has more than 2 caracters. Show the validation error message on page (if there's any)
 
-O formulário não tinha botão de limpar, então pedi um
+**O formulário não tinha botão de limpar, então pedi por um**
 > create a button to clean form values
 
-As cores dos botões estavam bem ruins, então pedi para alterar.
+**As cores dos botões estavam bem ruins, então pedi para alterar.**
 > buttom Submit to have background color red and font color white, and clear button to have black border and font
 
 # Aqui foi o README.md que a IA criou a meu pedido
