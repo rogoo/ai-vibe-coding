@@ -1,5 +1,5 @@
 ## Diversão com IA
-Aqui vou colocar projetos com ai vibe coding. Incrível como os modelos estão "espertos".
+Aqui vou colocar projetos com IA vibe coding. Incrível como os modelos estão "espertinhos".
 
 Gosto de sempre validar o código se possível (ou se o commit tiver muito arquivo faço uma validação por amostragem). Uma vez ou outra encontro uns furos e preciso manualmente alterar.
 
