@@ -3,9 +3,9 @@ Aqui vou colocar projetos com IA vibe coding. Incrível como os modelos estão "
 
 Gosto de sempre validar o código se possível (ou se o commit tiver muito arquivo faço uma validação por amostragem). Uma vez ou outra encontro uns furos e preciso manualmente alterar.
 
-Utilizo ambos **Copilot** e **Claude** - posso contas pagas (pro).
+Utilizo ambos **GitHub Copilot** (qualquer menos Claude) e **Claude** - posso contas pagas (pro).
 
-**Claude** é muito melhor, **Copilot** gera muito erro ao gerar código, então projetos aqui vão ser mais baseados no **Claude**.
+**Claude** é muito melhor, **GitHub Copilot** faz muita caca ao gerar código, então projetos aqui vão ser mais baseados no **Claude**. 
 
 Dos modelos **Claude**, tarefa simples partiu ***Sonnet***, ***Opus*** pra difícir. O ***Fable 5*** utilizo se a empresa disponibilizar - na minha conta pessoal estou satisfeito com os dois primeiros modelos.
 
@@ -27,6 +27,6 @@ update README.md to better explain what the project is about
 **Obs:** Dependendo nem precisa informar o arquivo, pois se tiver em um IDE com suporte direto (exmeplo VS Code), se o arquivo tiver aberto ele já aparece como selecionado.
 
 ### CUIDADO
-De vez em nunca escreva algo, ou seu conhecimento vai pras cucuias.
+De vez em nunca escreva código, ou até reescrevo algo que o IA gerou. Já fiquei muito tempo no vibe coding e meu conhecimento prático foi-se embora.
 
-Ao menos para mim, escrever código facilita memorização de padrões e etc, então nunca estou 100% vibe coding. Isso é ruim!!
+Ao menos para mim, escrever código facilita memorização de padrões, código e etc, então nunca estou ficar 100% vibe coding. Isso é ruim!!
