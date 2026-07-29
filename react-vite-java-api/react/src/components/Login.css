@@ -1,0 +1,93 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 8rem);
+  padding: 1rem;
+}
+
+.login__box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  max-width: 320px;
+  padding: 2rem;
+  border: 1px solid #d0d0d8;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 8%);
+}
+
+.login__box h1 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.login__box label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.login__box input {
+  padding: 0.55rem 0.65rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #c6c6d0;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.login__password {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.login__password input {
+  flex: 1;
+  margin-bottom: 0;
+  padding-right: 2.5rem;
+}
+
+.login__toggle {
+  position: absolute;
+  right: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  color: #6b6b78;
+  cursor: pointer;
+}
+
+.login__toggle:hover {
+  color: #22222a;
+  background: #f0f0f5;
+}
+
+.login__toggle:focus-visible {
+  outline: 2px solid #3b5bdb;
+  outline-offset: 1px;
+}
+
+.login__box > button {
+  margin-top: 0.75rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  background: #3b5bdb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login__box > button:hover {
+  background: #364fc7;
+}

@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #e2e2e8;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+.header__nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header__link {
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  color: #3b5bdb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header__link:hover {
+  background: #eef1fd;
+}
+
+.header__link--disabled,
+.header__link--disabled:hover {
+  color: #a0a0ad;
+  background: none;
+  cursor: not-allowed;
+}
+
+.header__link.active {
+  background: #3b5bdb;
+  color: #fff;
+}
+
+.header__session {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

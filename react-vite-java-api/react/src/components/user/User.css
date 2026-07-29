@@ -1,0 +1,149 @@
+.users {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.users h1 {
+  margin-top: 0;
+}
+
+.users__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #d0d0d8;
+  border-radius: 8px;
+  background: #fafafc;
+}
+
+.users__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.users__field label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.users__field input,
+.user-detail input {
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #c6c6d0;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.users__buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn--primary {
+  border-color: #3b5bdb;
+  background: #3b5bdb;
+  color: #fff;
+}
+
+.btn--primary:hover:not(:disabled) {
+  background: #364fc7;
+}
+
+.btn--success {
+  border-color: #2f9e44;
+  background: #2f9e44;
+  color: #fff;
+}
+
+.btn--success:hover:not(:disabled) {
+  background: #2b8a3e;
+}
+
+.btn--danger {
+  border-color: #e03131;
+  background: #e03131;
+  color: #fff;
+}
+
+.btn--danger:hover:not(:disabled) {
+  background: #c92a2a;
+}
+
+.users__table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.users__table th,
+.users__table td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #e6e6ec;
+  text-align: left;
+}
+
+.users__table thead th {
+  background: #f4f4f8;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.users__empty {
+  text-align: center;
+  color: #777;
+}
+
+.users__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* UserDetail modal */
+.user-detail__backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgb(0 0 0 / 45%);
+}
+
+.user-detail {
+  width: 100%;
+  max-width: 380px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
+}
+
+.user-detail h2 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+.user-detail form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.user-detail label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.user-detail__actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
