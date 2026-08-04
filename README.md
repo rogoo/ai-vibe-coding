@@ -27,6 +27,6 @@ update README.md to better explain what the project is about
 **Obs:** Dependendo nem precisa informar o arquivo, pois se tiver em um IDE com suporte direto (exmeplo VS Code), se o arquivo tiver aberto ele já aparece como selecionado.
 
 ### CUIDADO
-De vez em nunca escreva código, ou até reescrevo algo que o IA gerou. Já fiquei muito tempo no vibe coding e meu conhecimento prático foi-se embora.
+De vez em nunca escreva código, ou até reescrevo algo que o IA gerou. Já fiquei muito tempo no vibe coding e meu conhecimento prático foi-se embora. Preciso inclusive desabilitar o inline suggestion do VS Code senão nem tempo de pensar tenho.
 
 Ao menos para mim, escrever código facilita memorização de padrões, código e etc, então nunca estou ficar 100% vibe coding. Isso é ruim!!
