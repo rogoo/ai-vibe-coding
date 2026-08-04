@@ -1,0 +1,154 @@
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.page h1 {
+  margin-top: 0;
+}
+
+.page p {
+  line-height: 1.6;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Filters and forms */
+.filters {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 420px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #4a5162;
+}
+
+.field input {
+  padding: 8px 10px;
+  border: 1px solid #c9d0dc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.field input:focus {
+  outline: 2px solid #61dafb;
+  outline-offset: 1px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #c9d0dc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #282c34;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f1f4f9;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.button-primary {
+  background-color: #282c34;
+  border-color: #282c34;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #3a3f4b;
+}
+
+.button-danger {
+  border-color: #d9534f;
+  color: #d9534f;
+}
+
+.button-danger:hover {
+  background-color: #fdf0f0;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #e3e8ef;
+  padding: 10px 8px;
+  text-align: left;
+}
+
+.table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7280;
+}
+
+.table-id {
+  width: 70px;
+}
+
+.table-actions {
+  width: 170px;
+  display: table-cell;
+}
+
+.table td.table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.table-empty {
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* Messages */
+.message {
+  color: #4a5162;
+}
+
+.message-error {
+  padding: 10px 12px;
+  border: 1px solid #f0b8b6;
+  border-radius: 4px;
+  background-color: #fdf0f0;
+  color: #a32e2b;
+}

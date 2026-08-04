@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+  height: 60px;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.header-brand {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.header-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.header-link {
+  color: #cfd6e4;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.header-link:hover {
+  background-color: #3a3f4b;
+  color: #fff;
+}
+
+.header-link-active {
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: 600;
+}
